@@ -46,6 +46,13 @@
                   >Home</router-link
                 >
               </li>
+              <li class="nav-item">
+                <router-link
+                  class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  to="/contact-us"
+                  >Contact Us</router-link
+                >
+              </li>
               <li
                 v-if="envVars.VUE_APP_SHOW_ASSETS === 'true'"
                 class="nav-item"
@@ -126,6 +133,13 @@
                         >My Calendar</router-link
                       >
                     </li>
+                    <li class="nav-item">
+                      <router-link
+                        class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                        to="/contact-us"
+                        >Contact Us</router-link
+                      >
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -184,6 +198,13 @@
                   class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
                   to="/studio/my-calendar"
                   >My Calendar</router-link
+                >
+              </li>
+              <li class="nav-item">
+                <router-link
+                  class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                  to="/contact-us"
+                  >Contact Us</router-link
                 >
               </li>
               <li v-if="itemCount > 0" class="nav-item mb-2 lg:mb-0">

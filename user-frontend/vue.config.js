@@ -1,8 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
-const path = require("path");
-
 module.exports = defineConfig({
-  outputDir: path.resolve(__dirname, process.env.OUTPUT_DIR),
   chainWebpack: (config) => {
     config.optimization.minimizer("terser").tap((args) => {
       args[0].terserOptions.output = {

@@ -34,6 +34,7 @@
     "mitt": "^3.0.0",
     "pinia": "^2.0.27",
     "postprocessing": "^6.26.3",
+    "react-scripts": "^5.0.1",
     "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.13",
     "vue-i18n": "^9.1.0",
